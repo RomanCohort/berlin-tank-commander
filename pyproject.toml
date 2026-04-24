@@ -1,0 +1,16 @@
+[project]
+name = "berlin-tank-commander"
+version = "1.0.0"
+description = "柏林1945虎王车长文字冒险游戏"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "RomanCohort"}]
+keywords = ["game", "text-adventure", "ww2", "tiger-ii", "berlin"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pyinstaller"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
